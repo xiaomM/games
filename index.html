@@ -3448,7 +3448,7 @@ function draw(){
 		if(!gtype)gtype="休闲竞技";
 		var score=games[i].score;
 		if(!score)score=60;		
-		sr +="<div class='game clearfix'><div class='game-logo'><a href='" + games[i].src + "' target='_blank'><img src='" + games[i].icon + "'></a></div><div class='game-info'><section><p class='title'>" + games[i].name + "</p><p class='des'>有" + (100000+parseInt(Math.random()*1000000)) + "人玩过</p></section><footer class='clearfix'><a href='" + games[i].src + "' target='_blank' class='btn-play'>开始游戏</a><div class='qr-wrap'><span class='qr'></span><div class='game-qr'><img src='http://pan.baidu.com/share/qrcode?w=150&h=150?url="+encodeURIComponent(games[i].src)+"'></div></div></footer></div></div>";
+		sr +="<div class='game clearfix'><div class='game-logo'><a href='" + games[i].src + "' target='_blank'><img src='" + games[i].icon + "'></a></div><div class='game-info'><section><p class='title'>" + games[i].name + "</p><p class='des'>有" + (100000+parseInt(Math.random()*1000000)) + "人玩过</p></section><footer class='clearfix'><a href='" + games[i].src + "' target='_blank' class='btn-play'>开始游戏</a><div class='qr-wrap'><span class='qr'></span><div class='game-qr'><img src='http://qr.liantu.com/api.php?text="+encodeURIComponent(games[i].src)+"'></div></div></footer></div></div>";
 
 	}
 	
