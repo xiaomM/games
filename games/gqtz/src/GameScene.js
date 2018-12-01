@@ -6,15 +6,15 @@
 
 var AD = ["res/ad02.png"];
 
-var ADLink = ["http://game.ikongzhong.cn"];
+var ADLink = ["http://game.dream623.com"];
 
 var androidAD = ["res/ad01.png", "res/ad03.png"];
 
-var androidADLink = ["http://game.ikongzhong.cn","http://game.ikongzhong.cn"];
+var androidADLink = ["http://game.dream623.com","http://game.dream623.com"];
 
 var iosAD = ["res/ad01.png", "res/ad03.png"];
 
-var iosADLink = ["http://game.ikongzhong.cn","http://game.ikongzhong.cn"];
+var iosADLink = ["http://game.dream623.com","http://game.dream623.com"];
 
 var adPush = function(b) {
 

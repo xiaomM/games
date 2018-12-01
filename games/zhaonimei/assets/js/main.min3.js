@@ -77,8 +77,8 @@ _config = {
     }
 },
 shareData = {
-    imgUrl: "http://game.ikongzhong.cn/games/zhaonimei/zhaonimei.jpg",
-    timeLineLink: "http://game.ikongzhong.cn/games/zhaonimei/",
+    imgUrl: "http://game.dream623.com/games/zhaonimei/zhaonimei.jpg",
+    timeLineLink: "http://game.dream623.com/games/zhaonimei/",
     tTitle: _lang[_config.lang].title + "?",
     tContent: _lang[_config.lang].desc,
     totalWazi:0
@@ -238,7 +238,7 @@ function(a) {
         init: function() {
             this.initEvent(),
             this.loading(),
-            /android/i.test(c) ? (b.banner.attr("href", "http://game.ikongzhong.cn/").data("type", "android").find("img").attr("src", "assets/img/banner.android.jpg"), b.banner.show()) : /iphone|ipad|ipod/i.test(c) && (b.banner.attr("href", "http://game.ikongzhong.cn/").data("type", "ios").find("img").attr("src", "assets/img/banner.ios.jpg"), b.banner.show())
+            /android/i.test(c) ? (b.banner.attr("href", "http://game.dream623.com/").data("type", "android").find("img").attr("src", "assets/img/banner.android.jpg"), b.banner.show()) : /iphone|ipad|ipod/i.test(c) && (b.banner.attr("href", "http://game.dream623.com/").data("type", "ios").find("img").attr("src", "assets/img/banner.ios.jpg"), b.banner.show())
         },
         loading: function() {
             function a() {

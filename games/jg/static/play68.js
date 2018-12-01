@@ -3,7 +3,7 @@
 }
 
 function goHome() {
-	window.location.href = "http://game.ikongzhong.cn/games/";
+	window.location.href = "http://game.dream623.com/games/";
 }
 
 function play68_submitScore(score) {
@@ -12,8 +12,8 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://game.ikongzhong.cn/games/jgfx/static/icon.png';
-	lineLink = 'http://game.ikongzhong.cn/games/jgfx/';
+	imgUrl = 'http://game.dream623.com/games/jgfx/static/icon.png';
+	lineLink = 'http://game.dream623.com/games/jgfx/';
 	descContent = "来比比看谁的手指更厉害！";
 	updateShareScore(bestScore);
 	appid = '';

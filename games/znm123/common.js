@@ -1,10 +1,10 @@
 var btGame;
 ~function(bt) {
     bt.URL = {
-        root: "http://game.ikongzhong.cn",
+        root: "http://game.dream623.com",
         getMoreGame: function() {
             bt.dc("more");
-            return "http://game.ikongzhong.cn"
+            return "http://game.dream623.com"
         },
         getConcern: function() {
             return "http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd"

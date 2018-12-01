@@ -33,8 +33,8 @@
 <script language=javascript>
 		var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd';
 		window.shareData = {
-		        "imgUrl": "http://game.ikongzhong.cn/games/dqe/img/icon.png",
-		        "timeLineLink": "http://game.ikongzhong.cn/games/dqe",
+		        "imgUrl": "http://game.dream623.com/games/dqe/img/icon.png",
+		        "timeLineLink": "http://game.dream623.com/games/dqe",
 		        "tTitle": "打企鹅-火爆朋友圈",
 		        "tContent": "打企鹅-火爆朋友圈"
 		};
@@ -44,7 +44,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://game.ikongzhong.cn/";
+				window.location = "http://game.dream623.com/";
 			 }
 			 else{
 				goHome();
@@ -87,14 +87,14 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://game.ikongzhong.cn/games/dqe/share.png"
+			<img width=100% src="http://game.dream623.com/games/dqe/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
 		<div style="display: none;">
 			<script type="text/javascript">
             var myData = { gameid: "dqe" };
-			window.shareData.timeLineLink = "http://game.ikongzhong.cn/games/dqe/index.html?gameid=" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
+			window.shareData.timeLineLink = "http://game.dream623.com/games/dqe/index.html?gameid=" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
 			function dp_submitScore(score){
 				myData.score = score*10;
 				myData.scoreName = score+"米";
@@ -108,7 +108,7 @@
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
                         if (confirm("要将成绩提交到火爆朋友圈排行榜吗？")) {
-                            window.location = "http://game.ikongzhong.cn/games/dqe/index.html?gameid=" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                            window.location = "http://game.dream623.com/games/dqe/index.html?gameid=" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;

@@ -75,7 +75,7 @@ function addShareWX() {
 	t.style.cssText = "text-align:right;padding-left:10px;";
 	e.appendChild(t);
 	var n = document.createElement("img");
-	n.src = "http://game.ikongzhong.cn/games/xiongchumo/2000.png";
+	n.src = "http://game.dream623.com/games/xiongchumo/2000.png";
 	n.id = "share-wx-img";
 	n.style.cssText = "max-width:280px;padding-right:25px;";
 	t.appendChild(n);
@@ -108,11 +108,11 @@ function isMobile() {
 function isIOS() {
 	return navigator.userAgent.match(/iphone|ipod|ios/i)
 }
-var HOME_PATH = "http://game.ikongzhong.cn/games/",
+var HOME_PATH = "http://game.dream623.com/games/",
 RESOURCE_IMG_PATH = RESOURCE_IMG_PATH || "/game/",
 HORIZONTAL = HORIZONTAL || false,
 COVER_SHOW_TIME = COVER_SHOW_TIME || 2e3;
-var imgUrl = HOME_PATH + "http://game.ikongzhong.cn/games/xiongchumo/wenzhangku.png";
+var imgUrl = HOME_PATH + "http://game.dream623.com/games/xiongchumo/wenzhangku.png";
 var lineLink = HOME_PATH;
 var descContent = "快来跟我一起玩！";
 var shareTitle = "最好玩的小游戏就H5游戏大集合小游戏！";

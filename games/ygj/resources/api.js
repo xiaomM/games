@@ -11,8 +11,8 @@ Auth9G = function(gameid) {
 	this.identify = function(){};
 	this.ready = function(){};
 	this.readyDone = false;
-	this.baseUrl = "http://game.ikongzhong.cn/";
-	this.gameUrl = "http://game.ikongzhong.cn/";
+	this.baseUrl = "http://game.dream623.com/";
+	this.gameUrl = "http://game.dream623.com/";
 	this.init();
 }
 

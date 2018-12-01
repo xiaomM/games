@@ -1,13 +1,13 @@
 var btGame;~
 function(bt) {
 	bt.URL = {
-		root: "http://game.ikongzhong.cn",
+		root: "http://game.dream623.com",
 		getMoreGame: function() {
 			bt.dc("more");
-			return "http://game.ikongzhong.cn"
+			return "http://game.dream623.com"
 		},
 		getConcern: function() {
-			return "http://game.ikongzhong.cn/"
+			return "http://game.dream623.com/"
 		},
 	};
 	bt.getGameId = function() {

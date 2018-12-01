@@ -120,25 +120,25 @@
           document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
                 WeixinJSBridge.on('menu:share:appmessage', function(argv) {
                     WeixinJSBridge.invoke('sendAppMessage', {
-                        "img_url": "http://game.ikongzhong.cn/games/zhuogui/logo.png",
-                        "link": "http://game.ikongzhong.cn/games/zhuogui/index.html",
+                        "img_url": "http://game.dream623.com/games/zhuogui/logo.png",
+                        "link": "http://game.dream623.com/games/zhuogui/index.html",
                         "desc": "鬼节到了，我的手机见鬼了！！胆大的快来帮忙抓鬼啊！！",
                         "title": title
                     }, function(res) {
-                        document.location.href = "http://game.ikongzhong.cn/";
+                        document.location.href = "http://game.dream623.com/";
                     })
                 });
 
                 WeixinJSBridge.on('menu:share:timeline', function(argv) {
                     WeixinJSBridge.invoke('shareTimeline', {
-                        "img_url": "http://game.ikongzhong.cn/games/zhuogui/logo.png",
+                        "img_url": "http://game.dream623.com/games/zhuogui/logo.png",
                         "img_width": "120",
                         "img_height": "120",
-                        "link": "http://game.ikongzhong.cn/games/zhuogui/index.html",
+                        "link": "http://game.dream623.com/games/zhuogui/index.html",
                         "desc": "鬼节到了，我的手机见鬼了！！胆大的快来帮忙抓鬼啊！！",
                         "title": title
                     }, function(res) {
-                        document.location.href = "http://game.ikongzhong.cn/";
+                        document.location.href = "http://game.dream623.com/";
                     });
                 });
             }, false);

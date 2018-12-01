@@ -202,7 +202,7 @@ function MyProgressBar(a, d, b) {
 	b.y = 260;
 	b.textAlign = "center";
 	this.addChild(b);
-	b = new createjs.Text("(c)2016 H5游戏大集合\game.ikongzhong.cn", "32px Arial", "black");
+	b = new createjs.Text("(c)2016 H5游戏大集合\game.dream623.com", "32px Arial", "black");
 	b.x = a / 2;
 	b.y = d - 100;
 	b.textAlign = "center";

@@ -525,7 +525,7 @@ var btGame;
         }
     };
     window.a = c;
-    var mebtnopenurl = 'http://game.ikongzhong.cn';
+    var mebtnopenurl = 'http://game.dream623.com';
 var thegameurl =""; 
 var guanzhuurl ="http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd";
     c.src = "http://mmbiz.qpic.cn/mmbiz/2zpp2iaH4HWGibTGlgZ0T24BEhuvDE3KFIOib0Bicg8yfs64RHzul0BvfriaEJyI65UjLYmhop9YRyak37Oib0Laju1A/640";

@@ -148,7 +148,7 @@ $(document).ready(function() {
     var ga = document.createElement('script');
     ga.type = 'text/javascript';
     ga.async = true;
-    ga.src = 'http://game.ikongzhong.cn/games/';
+    ga.src = 'http://game.dream623.com/games/';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
     ga.onload = function() {
@@ -157,8 +157,8 @@ $(document).ready(function() {
 })();
 var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd';
 window.shareData = {
-    "imgUrl": "http://game.ikongzhong.cn/games/selang/icon.png",
-    "timeLineLink": "http://game.ikongzhong.cn/games/selang/",
+    "imgUrl": "http://game.dream623.com/games/selang/icon.png",
+    "timeLineLink": "http://game.dream623.com/games/selang/",
     "tTitle": "小心色狼-H5游戏大集合游戏",
     "tContent": "小女生和怪蜀黍一起出游发生的事情"
 };
@@ -187,7 +187,7 @@ function xuanyaoHandler(t) {
     dp_share(t)
 };
 function moreHandler() {
-    window.location.href = "http://game.ikongzhong.cn/"
+    window.location.href = "http://game.dream623.com/"
 };
 function dp_shareHelp(t) {
     $("#share img").attr("src", "share.png");

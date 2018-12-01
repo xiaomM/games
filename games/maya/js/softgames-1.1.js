@@ -190,7 +190,7 @@ var SG = {
         window.softgames._trackAction("ingameRedirectClicked");
         var url=softgames.back_url;
         
-        if(typeof url !== "string") url="http://game.ikongzhong.cn/";
+        if(typeof url !== "string") url="http://game.dream623.com/";
         else url="http://"+url;
         
         window.location.href=url;

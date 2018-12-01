@@ -803,8 +803,8 @@ var scoreArr = new Array(parseInt(total));
     scoreArr[5]['max'] = 100;
 var tScore = 0;
 var dataForWeixin={
-    img:    "http://game.ikongzhong.cn/games/fangyan/20140725ywh1200.jpg",
-    url:    "http://game.ikongzhong.cn/games/fangyan/index.html",
+    img:    "http://game.dream623.com/games/fangyan/20140725ywh1200.jpg",
+    url:    "http://game.dream623.com/games/fangyan/index.html",
     title:  "����2014�������½���רҵ�˼������е��� ",
     desc:   "2014���½���רҵ�˼�����",
 };
@@ -876,7 +876,7 @@ function report(link, action_type){
 	if(parse_link == null){ return; }
 	var query_obj = parseParams( parse_link['query_str'] );
 	query_obj['action_type'] = action_type;
-	query_obj['action_link'] = 'http://game.ikongzhong.cn/games/fangyan/index.html';
+	query_obj['action_link'] = 'http://game.dream623.com/games/fangyan/index.html';
 	var report_url = 'report.php?' + jQuery.param( query_obj );
 	$.ajax({ url: report_url, type: 'POST', timeout: 2000})
 }

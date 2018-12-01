@@ -1,5 +1,5 @@
-gameurl = 'http://game.ikongzhong.cn/games/coreball/';
-imgUrl = "http://game.ikongzhong.cn/games/coreball/icon.png";
+gameurl = 'http://game.dream623.com/games/coreball/';
+imgUrl = "http://game.dream623.com/games/coreball/icon.png";
 
 
 openid = '';

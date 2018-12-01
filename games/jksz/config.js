@@ -106,5 +106,5 @@ var game_47_01_url = ad_01_url;
 var game_48_01_txt = ad_02_txt;
 var game_48_01_url = ad_02_url;
 
-var domain = "game.ikongzhong.cn";
+var domain = "game.dream623.com";
 var aboutus = "http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd";

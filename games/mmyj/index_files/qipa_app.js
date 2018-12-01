@@ -1,7 +1,7 @@
 if (void 0 == APP_API_URL)
 	var APP_API_URL = /localhost/.test(location.host) ? "http://localhost:8000/" : "http://yx8.com/";
 if (void 0 == APP_LIST_URL)
-	var APP_LIST_URL = "http://game.ikongzhong.cn/";
+	var APP_LIST_URL = "http://game.dream623.com/";
 if (void 0 == APP_FOLLOW_URL)
 	var APP_FOLLOW_URL = "http://yx8.com/game/maomaoyujia/?from=maomaoyujia";
 if (void 0 == ENABLE_SHARE)

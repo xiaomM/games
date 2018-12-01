@@ -46,7 +46,7 @@ $(function(){
 //						$(this).fadeOut(1000);
 //						$(".again,.result").fadeIn(1000);
 						//$(this).fadeOut(500);
-						window.location = "http://game.ikongzhong.cn/";
+						window.location = "http://game.dream623.com/";
 					})
 				}
 				if(x>=24 && x<32){
@@ -59,7 +59,7 @@ $(function(){
 //						$(this).fadeOut(1000);
 //						$(".again,.result").fadeIn(1000);
 						//$(this).fadeOut(500);
-						window.location = "http://game.ikongzhong.cn/";
+						window.location = "http://game.dream623.com/";
 					})
 				}	
 				if(x>=32 && x<40){
@@ -72,7 +72,7 @@ $(function(){
 //						$(this).fadeOut(1000);
 //						$(".again,.result").fadeIn(1000);
 						//$(this).fadeOut(500);
-						window.location = "http://game.ikongzhong.cn/";
+						window.location = "http://game.dream623.com/";
 					})
 				}
 				if(x>=40 && x<=48){
@@ -84,7 +84,7 @@ $(function(){
 //						$(".scroll").fadeIn().html(html);
 //						$(this).fadeOut(1000);
 //						$(".again,.result").fadeIn(1000);
-						window.location = "http://game.ikongzhong.cn/";
+						window.location = "http://game.dream623.com/";
 						//$(this).fadeOut(500);
 					})
 				}
